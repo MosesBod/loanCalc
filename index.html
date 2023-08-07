@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Loan Calculator</h1>
+            <form action="#" class="loan_form">
+                <label for="$">$</label>
+                <input type="number" id="loan_amount" placeholder="Loan Amount"><br>
+                <label for="%">%</label>
+                <input type="number" id="loan_interest" placeholder="Loan Interest"><br>
+                <input type="number" id="repayment_years" placeholder="Repayment Years"><br>
+                <button type="submit" class="calculate_button">Calculate</button>
+            </form><br>
+            <h3>Result</h3>
+            <form action="">
+                <label for="monthly payment">Monthly Payment:</label><br>
+                <input name="monthly payment" id="monthly_payment" type="text" disabled><br>
+                <label for="total payment">Total Payment:</label><br>
+                <input name="total payment" id="total_payment" type="text" disabled><br>
+                <label for="total interest">Total Interest:</label><br>
+                <input name="total interest" id="total_interest" type="text" disabled><br>
+            </form>
+        </div>
+    </div>
+        
+
+    
+</body>
+<script src="script.js"></script>
+</html>

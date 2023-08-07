@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1b1b1b;
+    overflow: hidden;
+}
+.container{
+    width: 40%;
+    background-color: #fff;
+    margin: 5% auto;
+    /* text-align: center; */
+    padding: 20px 12px;
+}
+.container h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.loan_form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    padding: 13px 10px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+    width: 100%;
+}
+input:focus{
+    border: 3px solid rgba(2, 2, 53, 0.712);
+    outline: none;
+}
+.calculate_button{
+    padding: 10px 3px;
+    background-color: #1b1b1b;
+    color: #fff;
+    font-size: 15px;
+}
+h3{
+    text-align: center;
+}
